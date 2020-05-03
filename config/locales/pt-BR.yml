@@ -2,6 +2,7 @@ pt-BR:
   activerecord:
     models:
       user: 'Usuário'
+      comment: 'Comentário'
     attributes:
       default: &default
         create_at: 'Criado em'
@@ -11,6 +12,10 @@ pt-BR:
         <<: *default
         description: 'Descrição'
         photo: 'Foto'
+
+      comment:
+        <<: *default 
+        body: 'Comentário' 
       
       user:
         <<: *default
