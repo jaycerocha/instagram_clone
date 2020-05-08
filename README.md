@@ -4,7 +4,7 @@ Instagram clone é um aplicativo  Web inspirado no Instagram para seguir pessoas
 
 ## Screenshots
 
-![Home](URL da imagem)
+![Home](https://github.com/jaycerocha/instagram_clone/blob/master/tela.png)
 
   
 
