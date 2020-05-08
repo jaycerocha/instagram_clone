@@ -27,23 +27,23 @@ Entre no repositorio instagram_clone
 ````
 $ cd instagram_clone
 ````
-execute o camando para instalar as dependências listadas no Gemfile
+Execute o camando para instalar as dependências listadas no Gemfile
 ````
 $ bundle install
 ````
-execute o comando para instalar as dependências listadas no package.json
+Execute o comando para instalar as dependências listadas no package.json
 ````
 $ yarn install
 ````
-Criando o banco de dados
+Execute o comando para criar o banco de dados
 ````
 $ rails db:create
 ````
-Roda as migrações do bando de dados
+Execute o comando para roda as migrações do bando de dados
 ````
 $ rails db:migrate
 ````
-Inicia o servidor
+Execute o comando para iniciar o servidor
 ````
 $ rails s
 ````  
