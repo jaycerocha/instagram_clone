@@ -1,24 +1,57 @@
-# README
+# Instagram clone
+Instagram clone é um aplicativo  Web inspirado no Instagram para seguir pessoas e compartilhar fotos. Foi construído usando Ruby on Rails e PostgreSQL
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## Screenshots
 
-* Ruby version
+![Home](URL da imagem)
 
-* System dependencies
+  
 
-* Configuration
+### Requisitos
+  - Ruby 2.6.3
+  - Rails 6.0.2
+  - Node js
+  - Postgres
+  - Redis
+  - Yarn
+  
 
-* Database creation
 
-* Database initialization
+## Instalando
+Clone o repositorio
+````
+$ git clone https://github.com/jaycerocha/instagram_clone
+````
+Entre no repositorio instagram_clone
+````
+$ cd instagram_clone
+````
+execute o camando para instalar as dependências listadas no Gemfile
+````
+$ bundle install
+````
+execute o comando para instalar as dependências listadas no package.json
+````
+$ yarn install
+````
+Criando o banco de dados
+````
+$ rails db:create
+````
+Roda as migrações do bando de dados
+````
+$ rails db:migrate
+````
+Inicia o servidor
+````
+$ rails s
+````  
+Acesse o seguite link no seu browser
 
-* How to run the test suite
+http://localhost:3000/
 
-* Services (job queues, cache servers, search engines, etc.)
+Licença
+----
 
-* Deployment instructions
-
-* ...
+[MIT](https://opensource.org/licenses/MIT)
